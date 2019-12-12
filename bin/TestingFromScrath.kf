@@ -1,0 +1,5 @@
+#Thu Dec 12 12:41:19 EST 2019
+version=0.1.0
+name=TestingFromScrath
+types=com.landisgyr.lgap.simple.led.*,java.util.logging.*,ej.util.property.*,com.landisgyr.lgap.simple.uart.*,__TestingFromScrath__.generated.*,some.pack.name.*,ej.basictool.*,ej.basictool.map.*,java.security.*,ej.components.*,ej.wadapps.property.*,ej.wadapps.management.*,ej.components.registry.util.*,ej.wadapps.registry.*,com.landisgyr.lgap.simple.gpio.*,org.eclipse.core.runtime.*,ej.components.dependencyinjection.*,com.landisgyr.lgap.simple.meter.*,com.landisgyr.lgap.epf.*,ej.components.dependencyinjection.util.*,java.lang.*,ej.junit.*,ej.io.progress.*,ej.wadapps.registry.util.*,ej.annotation.*,ej.components.registry.impl.*,java.io.*,java.lang.ref.*,ej.observable.*,java.lang.annotation.*,java.lang.reflect.*,ej.components.registry.*,properties.*,ej.kf.*,ej.wadapps.admin.*,ej.wadapps.storage.*,java.util.*,ej.bon.*,org.junit.*,org.junit.internal.*,com.landisgyr.lgap.logging.*,com.landisgyr.lgap.simple.communication.*,icons.*,ej.wadapps.app.*,ej.util.logging.handler.*
+entryPoint=__TestingFromScrath__.generated.TestingFromScrathEntryPoint

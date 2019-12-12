@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Application-Id: TestingFromScrath
+Application-Version: 0.1.0
+Application-PrintableName: TestingFromScrath
+Application-Description: TestingFromScrath
+Application-IconsDirectory: icons
+Application-BackgroundServices: some.pack.name.NewClass

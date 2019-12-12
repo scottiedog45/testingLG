@@ -1,0 +1,1011 @@
+<lscmap name="default">
+	<property name="level" value="dev"/>
+	<property name="version" value="1.3.0-RC201911040953"/>
+	<property name="edition" value="STD"/>
+	<property name="printableName" value="Virtual Device ICB"/>
+	<property name="runtime.version" value="1.1.0"/>
+	<property name="toolchainPrintableName" value="GNU GCC 5.4"/>
+	<property name="jpf.dir" value="C:\Users\Stable Kernel\.microej\repositories\LandisGyr-Studio-4.1.6\1.6\sd002"/>
+	<property name="techVersion" value="1.6"/>
+	<property name="licenseTag" value="IS2T_J8F5C"/>
+	<property name="toolchain" value="GNUv54_cortexa7_LandisGyr_ICB_Linux"/>
+	<property name="workbenchMinVersion" value="2.8.0"/>
+	<property name="baseline" value="14"/>
+	<property name="architecture" value="CA7"/>
+	<property name="hardwarePartNumber" value="LGICB"/>
+	<property name="buildLabel" value="20191104-0953"/>
+	<property name="vendorUrl" value="http://developer.microej.com/4.0/sdk/license"/>
+	<property name="runtime.name" value="Minimal Net Runtime"/>
+	<property name="provider" value="MicroEJ"/>
+	<property name="architecturePrintableName" value="ARM Cortex-A7"/>
+	<property name="archivePattern" value="Virtual Device ICB"/>
+	<property name="name" value="Virtual Device ICB"/>
+	<inputUnit name="C:\Users\Stable Kernel\.microej\repositories\LandisGyr-Studio-4.1.6\1.6\sd002\firmware\firmware.out" id="0"/>
+	<inputUnit name="C:\Users\Stable Kernel\.landisgyr\workspaces\LandisGyr-Studio-4.1.6\TestingFromScrath\__TestingFromScrath__.generated.BackgroundServicesStandalone\feature\feature_soar.o" id="1"/>
+	<inputUnit name="C:\Users\Stable Kernel\.microej\repositories\LandisGyr-Studio-4.1.6\1.6\sd002\MICROJVM\dynamicLink\link.lscf" id="2"/>
+	<symbol id="0" name="_java_Ljava_util_TimerTask_method__4init_5_V" value="0x00064848" inputUnit="0"/>
+	<symbol id="1" name="_java_rodata_immutable__java_AC9" value="0x000007c0" inputUnit="1" target="0"/>
+	<symbol id="2" name="_java_rodata_immutable__java_AC8" value="0x000007f8" inputUnit="1" target="1"/>
+	<symbol id="3" name="_java_rodata_immutable__java_AC7" value="0x00000810" inputUnit="1" target="2"/>
+	<symbol id="4" name="_java_rodata_immutable__java_AC6" value="0x00000828" inputUnit="1" target="3"/>
+	<symbol id="5" name="_java_rodata_immutable__java_AC5" value="0x00000844" inputUnit="1" target="4"/>
+	<symbol id="6" name="_java_rodata_immutable__java_AC4" value="0x00000860" inputUnit="1" target="5"/>
+	<symbol id="7" name="_java_Pej_util" value="0x000005b0" inputUnit="1" target="6"/>
+	<symbol id="8" name="_java_Psome" value="0x000005bc" inputUnit="1" target="7"/>
+	<symbol id="9" name="_java_Ljava_util_Timer" value="0x00016410" inputUnit="0"/>
+	<symbol id="10" name="_java_Ljava_util_Timer_method__4init_5_V" value="0x0007a178" inputUnit="0"/>
+	<symbol id="11" name="_java_Lsome_pack_name_RepeatedTaskTimer_method__4init_5_I_V" value="0x00000984" inputUnit="1" target="8"/>
+	<symbol id="12" name="_java_Ljava_util_Timer_method_scheduleAtFixedRate_Ljava_util_TimerTask_J_J_V" value="0x0005d26c" inputUnit="0"/>
+	<symbol id="13" name="_java_Lej_components_registry_util_BundleRegistryHelper_method_startup_Lej_components_registry_BundleActivator_V" value="0x00066d48" inputUnit="0"/>
+	<symbol id="14" name="_java_Lej_components_registry_BundleRegistry" value="0x0001b254" inputUnit="0"/>
+	<symbol id="15" name="_java_Pjava" value="0x000005c8" inputUnit="1" target="9"/>
+	<symbol id="16" name="_java_Lcom_is2t_kf_PrincipalData" value="0x00014da0" inputUnit="0"/>
+	<symbol id="17" name="_java_rodata_immutable__java_AAC3" value="0x00000870" inputUnit="1" target="10"/>
+	<symbol id="18" name="_java_Pej_util_logging" value="0x000005d4" inputUnit="1" target="11"/>
+	<symbol id="19" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_addObserver_Lej_observable_Observer_V" value="0x000009c0" inputUnit="1" target="12"/>
+	<symbol id="20" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_deleteObserver_Lej_observable_Observer_V" value="0x00000a08" inputUnit="1" target="13"/>
+	<symbol id="21" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_add_Lej_wadapps_app_BackgroundService_V" value="0x00000a50" inputUnit="1" target="14"/>
+	<symbol id="22" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_remove_Lej_wadapps_app_BackgroundService_V" value="0x00000a98" inputUnit="1" target="15"/>
+	<symbol id="23" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_getBackgroundServices_ALej_wadapps_app_BackgroundService" value="0x00000ae0" inputUnit="1" target="16"/>
+	<symbol id="24" name="_java_Lej_wadapps_management_BackgroundServicesList_method_addObserver_Lej_observable_Observer_V_descriptor" value="0x00000234" inputUnit="1" target="17"/>
+	<symbol id="25" name="_java_Lej_wadapps_management_BackgroundServicesList_method_deleteObserver_Lej_observable_Observer_V_descriptor" value="0x00000260" inputUnit="1" target="18"/>
+	<symbol id="26" name="_java_Lej_wadapps_management_BackgroundServicesList_method_add_Lej_wadapps_app_BackgroundService_V_descriptor" value="0x0000028c" inputUnit="1" target="19"/>
+	<symbol id="27" name="_java_Lej_wadapps_management_BackgroundServicesList_method_remove_Lej_wadapps_app_BackgroundService_V_descriptor" value="0x000002b8" inputUnit="1" target="20"/>
+	<symbol id="28" name="_java_Lej_wadapps_management_BackgroundServicesList_method_getBackgroundServices_ALej_wadapps_app_BackgroundService_descriptor" value="0x000002e4" inputUnit="1" target="21"/>
+	<symbol id="29" name="_java_Lej_observable_ObserverProxy_method_update_V" value="0x00000b38" inputUnit="1" target="22"/>
+	<symbol id="30" name="_java_Lej_observable_Observer_method_update_V_descriptor" value="0x0000030c" inputUnit="1" target="23"/>
+	<symbol id="31" name="_java_Ljava_lang_Runnable" value="0x0001b764" inputUnit="0"/>
+	<symbol id="32" name="_java_Lsome_pack_name_RepeatedTaskTimer" value="0x000000c0" inputUnit="1" target="24"/>
+	<symbol id="33" name="_java_Ljava_lang_System_field_out_Ljava_io_PrintStream" value="0x0049b90c" inputUnit="0"/>
+	<symbol id="34" name="_java_Ljava_io_PrintStream_method_println_Ljava_lang_String_V" value="0x0006532c" inputUnit="0"/>
+	<symbol id="35" name="_java_Lsome_pack_name_RepeatedTaskTimer_field_completionCount_I" value="0x00000000" inputUnit="1" target="25"/>
+	<symbol id="36" name="_java_Psome_pack" value="0x000005e0" inputUnit="1" target="26"/>
+	<symbol id="37" name="_java_Lsome_pack_name_NewClass_method_main_V" value="0x00000b68" inputUnit="1" target="27"/>
+	<symbol id="38" name="_java_Lej_wadapps_app_BackgroundService_method_onStart_V_descriptor" value="0x00000334" inputUnit="1" target="28"/>
+	<symbol id="39" name="_java_Lej_wadapps_app_BackgroundService_method_onStop_V_descriptor" value="0x0000035c" inputUnit="1" target="29"/>
+	<symbol id="40" name="_java_Ljava_lang_Throwable" value="0x0001a270" inputUnit="0"/>
+	<symbol id="41" name="_java_Lej_components_registry_BundleActivator" value="0x0001b284" inputUnit="0"/>
+	<symbol id="42" name="_java_P_1_1TestingFromScrath_1_1" value="0x000005ec" inputUnit="1" target="30"/>
+	<symbol id="43" name="_java_Lej_kf_FeatureEntryPoint" value="0x0001b044" inputUnit="0"/>
+	<symbol id="44" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method_start_V" value="0x00000bd8" inputUnit="1" target="31"/>
+	<symbol id="45" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method_stop_V" value="0x00000c1c" inputUnit="1" target="32"/>
+	<symbol id="46" name="_java_Lej_components_dependencyinjection_ServiceLoaderFactory_method_getServiceLoader_Lej_components_dependencyinjection_ServiceLoader" value="0x0005e12c" inputUnit="0"/>
+	<symbol id="47" name="_java_Pjava_util" value="0x000005f8" inputUnit="1" target="33"/>
+	<symbol id="48" name="_java_Pej" value="0x00000604" inputUnit="1" target="34"/>
+	<symbol id="49" name="_java_Pej_wadapps" value="0x00000610" inputUnit="1" target="35"/>
+	<symbol id="50" name="_java_Lcom_is2t_kf_ModuleData" value="0x000194d0" inputUnit="0"/>
+	<symbol id="51" name="_java_rodata_immutable__java_AC11" value="0x00000894" inputUnit="1" target="36"/>
+	<symbol id="52" name="_java_rodata_immutable__java_AC10" value="0x000008c4" inputUnit="1" target="37"/>
+	<symbol id="53" name="_java_rodata_immutable__java_Lcom_is2t_kf_PrincipalData2" value="0x000008e0" inputUnit="1" target="38"/>
+	<symbol id="54" name="_java_rodata_immutable__java_AB1" value="0x000008e8" inputUnit="1" target="39"/>
+	<symbol id="55" name="_java_Lsome_pack_name_RepeatedTaskTimer_method__4clinit_5_V" value="0x00000c64" inputUnit="1" target="40"/>
+	<symbol id="56" name="_java_rodata_resource_java_Pproperties_TestingFromScrath.application.system.properties" value="0x00000000" inputUnit="1" target="41"/>
+	<symbol id="57" name="_java_rodata_resource_java_Pproperties_TestingFromScrath.services.system.properties" value="0x00000020" inputUnit="1" target="42"/>
+	<symbol id="58" name="_java_Pproperties" value="0x0000061c" inputUnit="1" target="43"/>
+	<symbol id="59" name="_java_rodata_resource_java_Pproperties_TestingFromScrath.services.bundles" value="0x00000040" inputUnit="1" target="44"/>
+	<symbol id="60" name="_java_Pej_util_logging_handler" value="0x00000628" inputUnit="1" target="45"/>
+	<symbol id="61" name="_java_Ljava_util_logging_Handler_method__4init_5_V" value="0x00000c88" inputUnit="1" target="46"/>
+	<symbol id="62" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_imtable_java_Lej_wadapps_management_BackgroundServicesList" value="0x00000384" inputUnit="1" target="47"/>
+	<symbol id="63" name="_java_ALej_wadapps_app_BackgroundService" value="0x00000070" inputUnit="1" target="24"/>
+	<symbol id="64" name="_java_Lej_observable_ObserverProxy_imtable_java_Lej_observable_Observer" value="0x000003b4" inputUnit="1" target="48"/>
+	<symbol id="65" name="_java_Lsome_pack_name_RepeatedTaskTimer_imtable_java_Ljava_lang_Runnable" value="0x000003c4" inputUnit="1" target="49"/>
+	<symbol id="66" name="_java_Ljava_util_TimerTask" value="0x0001ab1c" inputUnit="0"/>
+	<symbol id="67" name="_java_Ljava_util_TimerTask_method_uncaughtException_Ljava_util_Timer_Ljava_lang_Throwable_V" value="0x0007f010" inputUnit="0"/>
+	<symbol id="68" name="_java_Ljava_util_TimerTask_method_setLaunched_V" value="0x0007eff8" inputUnit="0"/>
+	<symbol id="69" name="_java_Ljava_util_TimerTask_method_setScheduled_Ljava_util_Timer_J_J_Z_V" value="0x0007efa0" inputUnit="0"/>
+	<symbol id="70" name="_java_Ljava_util_TimerTask_method_scheduledExecutionTime_J" value="0x0007ef78" inputUnit="0"/>
+	<symbol id="71" name="_java_Lsome_pack_name_RepeatedTaskTimer_method_run_V" value="0x00000cac" inputUnit="1" target="50"/>
+	<symbol id="72" name="_java_Ljava_util_TimerTask_method_cancel_Z" value="0x0007ef18" inputUnit="0"/>
+	<symbol id="73" name="_java_Psome_pack_name" value="0x00000634" inputUnit="1" target="51"/>
+	<symbol id="74" name="_java_Lsome_pack_name_NewClass_imtable_java_Lej_wadapps_app_BackgroundService" value="0x000003d4" inputUnit="1" target="52"/>
+	<symbol id="75" name="_java_Lsome_pack_name_NewClass" value="0x000000f0" inputUnit="1" target="24"/>
+	<symbol id="76" name="_java_Lsome_pack_name_NewClass_method_onStop_V" value="0x00000d00" inputUnit="1" target="53"/>
+	<symbol id="77" name="_java_Lsome_pack_name_NewClass_method_onStart_V" value="0x00000d18" inputUnit="1" target="54"/>
+	<symbol id="78" name="_java_Lej_wadapps_app_BackgroundServiceProxy_imtable_java_Lej_wadapps_app_BackgroundService" value="0x000003ec" inputUnit="1" target="55"/>
+	<symbol id="79" name="_java_Lej_kf_Proxy" value="0x00017ea0" inputUnit="0"/>
+	<symbol id="80" name="_java_Ljava_lang_ref_Reference" value="0x0001b3d4" inputUnit="0"/>
+	<symbol id="81" name="_java_Lej_kf_Proxy_method__4init_5_V" value="0x0007ad4c" inputUnit="0"/>
+	<symbol id="82" name="_java_Lej_kf_Proxy_method_equals_Ljava_lang_Object_Z" value="0x0005726c" inputUnit="0"/>
+	<symbol id="83" name="_java_Ljava_lang_ref_Reference_method_isEnqueued_Z" value="0x00080a74" inputUnit="0"/>
+	<symbol id="84" name="_java_Ljava_lang_ref_Reference_method_get_Ljava_lang_Object" value="0x00080a5c" inputUnit="0"/>
+	<symbol id="85" name="_java_Ljava_lang_ref_Reference_method_enqueue_Z" value="0x00080a38" inputUnit="0"/>
+	<symbol id="86" name="_java_Ljava_lang_ref_Reference_method_clear_V" value="0x00080a18" inputUnit="0"/>
+	<symbol id="87" name="_java_Lej_kf_Proxy_method_getReference_Ljava_lang_Object" value="0x000656dc" inputUnit="0"/>
+	<symbol id="88" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStop_V" value="0x00000d50" inputUnit="1" target="56"/>
+	<symbol id="89" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStart_V" value="0x00000d98" inputUnit="1" target="57"/>
+	<symbol id="90" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_imtable_java_Lej_components_registry_BundleActivator" value="0x00000404" inputUnit="1" target="58"/>
+	<symbol id="91" name="_java_P_1_1TestingFromScrath_1_1_generated" value="0x00000640" inputUnit="1" target="59"/>
+	<symbol id="92" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_imtable_java_Lej_kf_FeatureEntryPoint" value="0x0000042c" inputUnit="1" target="60"/>
+	<symbol id="93" name="_java_Ljava_lang_Object_method__4init_5_V" value="0x0007c32c" inputUnit="0"/>
+	<symbol id="94" name="_java_Ljava_lang_Object_method_toString_Ljava_lang_String" value="0x00083534" inputUnit="0"/>
+	<symbol id="95" name="_java_Ljava_lang_Object_method_hashCode_I" value="0x000840b4" inputUnit="0"/>
+	<symbol id="96" name="_java_Ljava_lang_Object_method_equals_Ljava_lang_Object_Z" value="0x00084094" inputUnit="0"/>
+	<symbol id="97" name="_java_Ljava_lang_Object_method_clone_Ljava_lang_Object" value="0x00084044" inputUnit="0"/>
+	<symbol id="98" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_stop_V" value="0x00000dd0" inputUnit="1" target="61"/>
+	<symbol id="99" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_start_V" value="0x00000e18" inputUnit="1" target="62"/>
+	<symbol id="100" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_link_V" value="0x00000e30" inputUnit="1" target="63"/>
+	<symbol id="101" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_initialize_V" value="0x00000e78" inputUnit="1" target="64"/>
+	<symbol id="102" name="_java_Pej_junit" value="0x0000064c" inputUnit="1" target="65"/>
+	<symbol id="103" name="_java_Pjava_util_logging" value="0x00000658" inputUnit="1" target="66"/>
+	<symbol id="104" name="_java_Ljava_util_logging_Handler" value="0x000001d4" inputUnit="1" target="24"/>
+	<symbol id="105" name="_java_Pej_observable" value="0x00000664" inputUnit="1" target="67"/>
+	<symbol id="106" name="_java_Lej_observable_Observer" value="0x000001ec" inputUnit="1" target="24"/>
+	<symbol id="107" name="_java_Lej_observable_ObserverProxy" value="0x00000090" inputUnit="1" target="24"/>
+	<symbol id="108" name="_java_Pej_wadapps_management" value="0x00000670" inputUnit="1" target="68"/>
+	<symbol id="109" name="_java_Lej_wadapps_management_BackgroundServicesList" value="0x00000204" inputUnit="1" target="24"/>
+	<symbol id="110" name="_java_Lej_wadapps_management_BackgroundServicesListProxy" value="0x00000040" inputUnit="1" target="24"/>
+	<symbol id="111" name="" value="0x00001fe8" inputUnit="1" target="69"/>
+	<symbol id="112" name="_java_Pej_wadapps_app" value="0x0000067c" inputUnit="1" target="70"/>
+	<symbol id="113" name="_java_Lej_wadapps_app_BackgroundServiceProxy" value="0x00000120" inputUnit="1" target="24"/>
+	<symbol id="114" name="_java_rodata_immutable__java_Lcom_is2t_kf_ModuleData0" value="0x0000091c" inputUnit="1" target="71"/>
+	<symbol id="115" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method_class$_V" value="0x00000ea8" inputUnit="1" target="72"/>
+	<symbol id="116" name="_java_bss_feature0" value="0x00000000" inputUnit="1" target="73"/>
+	<symbol id="117" name="__icetea___6bss_6soar_6BT1_6TestingFromScrath$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="118" name="__icetea___6bss_6soar_6BT1_6TestingFromScrath$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="119" name="__icetea___6bss_6soar_6BT2_6TestingFromScrath$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="120" name="__icetea___6bss_6soar_6BT2_6TestingFromScrath$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="121" name="__icetea___6bss_6soar_6BT4_6TestingFromScrath$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="122" name="__icetea___6bss_6soar_6BT4_6TestingFromScrath$$Limit" value="0x00000004" inputUnit="2"/>
+	<symbol id="123" name="__icetea___6bss_6soar_6BT8_6TestingFromScrath$$Base" value="0x00000008" inputUnit="2"/>
+	<symbol id="124" name="__icetea___6bss_6soar_6BT8_6TestingFromScrath$$Limit" value="0x00000008" inputUnit="2"/>
+	<symbol id="125" name="__icetea___6bss_6soar_6REF_6TestingFromScrath$$Base" value="0x00000008" inputUnit="2"/>
+	<symbol id="126" name="__icetea___6bss_6soar_6REF_6TestingFromScrath$$Limit" value="0x0000002c" inputUnit="2"/>
+	<symbol id="127" name="_java_statics_refls_kernel_start_TestingFromScrath" value="0x00000008" inputUnit="1" target="74"/>
+	<symbol id="128" name="" value="0x00000024" inputUnit="1"/>
+	<symbol id="129" name="" value="0x00000000" inputUnit="1" target="75"/>
+	<symbol id="130" name="" value="0x00001248" inputUnit="1" target="76"/>
+	<symbol id="131" name="" value="0x00001260" inputUnit="1" target="77"/>
+	<symbol id="132" name="_timeStamp_low" value="0xf6cb3520" inputUnit="2"/>
+	<symbol id="133" name="_timeStamp_high" value="0x0000016e" inputUnit="2"/>
+	<symbol id="134" name="_java_Lej_junit_TestListener" value="0x000001a4" inputUnit="1" target="24"/>
+	<symbol id="135" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator" value="0x00000150" inputUnit="1" target="24"/>
+	<symbol id="136" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint" value="0x00000180" inputUnit="1" target="24"/>
+	<symbol id="137" name="_java_Lej_junit_TestWrapper" value="0x000001bc" inputUnit="1" target="24"/>
+	<symbol id="138" name="_java_Pproperties_TestingFromScrath.application.system.properties" value="0x00000688" inputUnit="1" target="78"/>
+	<symbol id="139" name="_java_Pproperties_TestingFromScrath.services.system.properties" value="0x000006a0" inputUnit="1" target="79"/>
+	<symbol id="140" name="_java_Lej_util_logging_handler_DefaultHandler" value="0x00000010" inputUnit="1" target="24"/>
+	<symbol id="141" name="_java_Pproperties_TestingFromScrath.services.bundles" value="0x000006b8" inputUnit="1" target="80"/>
+	<symbol id="142" name="_java_Lej_util_logging_handler_DefaultHandler_nameinfo" value="0x000006d0" inputUnit="1" target="81"/>
+	<symbol id="143" name="_java_Lej_util_logging_handler_DefaultHandler_method__4init_5_V" value="0x00000ec8" inputUnit="1" target="82"/>
+	<symbol id="144" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_nameinfo" value="0x000006e0" inputUnit="1" target="83"/>
+	<symbol id="145" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_itable" value="0x00000444" inputUnit="1" target="84"/>
+	<symbol id="146" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_htable" value="0x0000044c" inputUnit="1" target="85"/>
+	<symbol id="147" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method__4init_5_V" value="0x00000eec" inputUnit="1" target="86"/>
+	<symbol id="148" name="_java_ALej_wadapps_app_BackgroundService_nameinfo" value="0x000006f0" inputUnit="1" target="87"/>
+	<symbol id="149" name="_java_Lej_wadapps_app_BackgroundService" value="0x0000021c" inputUnit="1" target="24"/>
+	<symbol id="150" name="_java_Lej_observable_ObserverProxy_nameinfo" value="0x00000700" inputUnit="1" target="88"/>
+	<symbol id="151" name="_java_Lej_observable_ObserverProxy_itable" value="0x00000458" inputUnit="1" target="89"/>
+	<symbol id="152" name="_java_Lej_observable_ObserverProxy_htable" value="0x00000460" inputUnit="1" target="90"/>
+	<symbol id="153" name="_java_Lej_observable_ObserverProxy_method__4init_5_V" value="0x00000f10" inputUnit="1" target="91"/>
+	<symbol id="154" name="_java_Lsome_pack_name_RepeatedTaskTimer_nameinfo" value="0x00000710" inputUnit="1" target="92"/>
+	<symbol id="155" name="_java_Lsome_pack_name_RepeatedTaskTimer_itable" value="0x0000046c" inputUnit="1" target="93"/>
+	<symbol id="156" name="_java_Lsome_pack_name_RepeatedTaskTimer_htable" value="0x00000474" inputUnit="1" target="94"/>
+	<symbol id="157" name="_java_Lsome_pack_name_RepeatedTaskTimer_vtable" value="0x0000047c" inputUnit="1" target="95"/>
+	<symbol id="158" name="_java_Lsome_pack_name_NewClass_nameinfo" value="0x00000720" inputUnit="1" target="96"/>
+	<symbol id="159" name="_java_Lsome_pack_name_NewClass_itable" value="0x000004a4" inputUnit="1" target="97"/>
+	<symbol id="160" name="_java_Lsome_pack_name_NewClass_htable" value="0x000004ac" inputUnit="1" target="98"/>
+	<symbol id="161" name="_java_Lsome_pack_name_NewClass_method__4init_5_V" value="0x00000f34" inputUnit="1" target="99"/>
+	<symbol id="162" name="_java_Lsome_pack_name_NewClass_vtable" value="0x000004b0" inputUnit="1" target="100"/>
+	<symbol id="163" name="_java_Lej_wadapps_app_BackgroundServiceProxy_nameinfo" value="0x00000730" inputUnit="1" target="101"/>
+	<symbol id="164" name="_java_Lej_wadapps_app_BackgroundServiceProxy_itable" value="0x000004c8" inputUnit="1" target="102"/>
+	<symbol id="165" name="_java_Lej_wadapps_app_BackgroundServiceProxy_htable" value="0x000004d0" inputUnit="1" target="103"/>
+	<symbol id="166" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method__4init_5_V" value="0x00000f58" inputUnit="1" target="104"/>
+	<symbol id="167" name="_java_Lej_wadapps_app_BackgroundServiceProxy_vtable" value="0x000004dc" inputUnit="1" target="105"/>
+	<symbol id="168" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_nameinfo" value="0x00000740" inputUnit="1" target="106"/>
+	<symbol id="169" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_itable" value="0x00000508" inputUnit="1" target="107"/>
+	<symbol id="170" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_htable" value="0x00000510" inputUnit="1" target="108"/>
+	<symbol id="171" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method__4init_5_V" value="0x00000f7c" inputUnit="1" target="109"/>
+	<symbol id="172" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_nameinfo" value="0x00000750" inputUnit="1" target="110"/>
+	<symbol id="173" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_itable" value="0x00000514" inputUnit="1" target="111"/>
+	<symbol id="174" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_htable" value="0x0000051c" inputUnit="1" target="112"/>
+	<symbol id="175" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method__4init_5_V" value="0x00000fa0" inputUnit="1" target="113"/>
+	<symbol id="176" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_vtable" value="0x00000520" inputUnit="1" target="114"/>
+	<symbol id="177" name="_java_Lej_junit_TestListener_nameinfo" value="0x00000760" inputUnit="1" target="115"/>
+	<symbol id="178" name="_java_Lej_junit_TestWrapper_nameinfo" value="0x00000770" inputUnit="1" target="116"/>
+	<symbol id="179" name="_java_Ljava_util_logging_Handler_nameinfo" value="0x00000780" inputUnit="1" target="117"/>
+	<symbol id="180" name="_java_Lej_util_logging_handler_DefaultHandler_htable" value="0x00000540" inputUnit="1" target="118"/>
+	<symbol id="181" name="_java_Lej_observable_Observer_nameinfo" value="0x00000790" inputUnit="1" target="119"/>
+	<symbol id="182" name="" value="0x00000a90" inputUnit="1" target="120"/>
+	<symbol id="183" name="_java_Lej_wadapps_management_BackgroundServicesList_nameinfo" value="0x000007a0" inputUnit="1" target="121"/>
+	<symbol id="184" name="" value="0x00000ac8" inputUnit="1" target="122"/>
+	<symbol id="185" name="_java_Lej_wadapps_app_BackgroundService_nameinfo" value="0x000007b0" inputUnit="1" target="123"/>
+	<symbol id="186" name="" value="0x00000b00" inputUnit="1" target="124"/>
+	<symbol id="187" name="_java_rodata_feature0" value="0x00000000" inputUnit="1" target="125"/>
+	<symbol id="188" name="" value="0x00002488" inputUnit="1" target="126"/>
+	<symbol id="189" name="_java_features_start" value="0x00000000" inputUnit="1" target="127"/>
+	<symbol id="190" name="_java_signature_start" value="0x00000fc4" inputUnit="1" target="128"/>
+	<symbol id="191" name="_java_kernel_signature_start" value="0x00000fdc" inputUnit="1" target="129"/>
+	<symbol id="192" name="_java_soarsection_header_start" value="0x00000000" inputUnit="2"/>
+	<symbol id="193" name="_java_soarfile_header_start" value="0x0000059c" inputUnit="1" target="130"/>
+	<symbol id="194" name="_java_header_types_start" value="0x00000010" inputUnit="1" target="24"/>
+	<symbol id="195" name="_java_header_types_end" value="0x00000234" inputUnit="1" target="24"/>
+	<symbol id="196" name="_java_internStrings_start" value="0x0000093c" inputUnit="1" target="131"/>
+	<symbol id="197" name="_java_internStrings_end" value="0x00000984" inputUnit="2"/>
+	<symbol id="198" name="_java_sharedarray_start" value="0x00084598" inputUnit="0"/>
+	<symbol id="199" name="_java_class_names_start" value="0x000006d0" inputUnit="2"/>
+	<symbol id="200" name="_java_class_names_end" value="0x000007c0" inputUnit="2"/>
+	<symbol id="201" name="_java_resource_names_start" value="0x00000688" inputUnit="2"/>
+	<symbol id="202" name="_java_resource_names_end" value="0x000006d0" inputUnit="2"/>
+	<symbol id="203" name="_java_statics_ref_start" value="0x00000008" inputUnit="2"/>
+	<symbol id="204" name="_java_statics_ref_end" value="0x0000002c" inputUnit="2"/>
+	<symbol id="205" name="_java_names_data_start" value="0x0008c5e8" inputUnit="0"/>
+	<symbol id="206" name="_java_stackgroup_table" value="0x0009400c" inputUnit="0"/>
+	<symbol id="207" name="_java_stackgroup_table_length" value="0x00000001" inputUnit="0"/>
+	<symbol id="208" name="_java_Ljava_lang_Object" value="0x0001a3f0" inputUnit="0"/>
+	<symbol id="209" name="_java_Ljava_lang_Class" value="0x00019f80" inputUnit="0"/>
+	<symbol id="210" name="_java_Ljava_lang_String" value="0x0001a330" inputUnit="0"/>
+	<symbol id="211" name="_java_Ljava_lang_MainThread" value="0x00017f60" inputUnit="0"/>
+	<symbol id="212" name="_java_Ljava_lang_MainThread_field_Args_ALjava_lang_String" value="0x0049b8a0" inputUnit="0"/>
+	<symbol id="213" name="_java_Ljava_lang_Thread" value="0x0001a220" inputUnit="0"/>
+	<symbol id="214" name="_java_Ljava_lang_Thread_field_PeakThreadCount_I" value="0x0049b618" inputUnit="0"/>
+	<symbol id="215" name="_java_Ljava_lang_Thread_field_TotalStartedThreadCount_I" value="0x0049b614" inputUnit="0"/>
+	<symbol id="216" name="_java_Ljava_lang_OutOfMemoryError" value="0x000197a0" inputUnit="0"/>
+	<symbol id="217" name="_java_Ljava_lang_OutOfMemoryError_field_OOMEMethodAddr_I" value="0x0049b610" inputUnit="0"/>
+	<symbol id="218" name="_java_Ljava_lang_NullPointerException" value="0x00019690" inputUnit="0"/>
+	<symbol id="219" name="_java_Ljava_lang_IndexOutOfBoundsException" value="0x0001a0a0" inputUnit="0"/>
+	<symbol id="220" name="_java_Ljava_lang_ArrayIndexOutOfBoundsException" value="0x00019ef0" inputUnit="0"/>
+	<symbol id="221" name="_java_Ljava_lang_NegativeArraySizeException" value="0x0001a160" inputUnit="0"/>
+	<symbol id="222" name="_java_Ljava_lang_ArrayStoreException" value="0x000181d0" inputUnit="0"/>
+	<symbol id="223" name="_java_Ljava_lang_IllegalAccessException" value="0x00019290" inputUnit="0"/>
+	<symbol id="224" name="_java_Ljava_lang_IllegalAccessError" value="0x00018140" inputUnit="0"/>
+	<symbol id="225" name="_java_Ljava_lang_IllegalArgumentException" value="0x00019d40" inputUnit="0"/>
+	<symbol id="226" name="_java_Ljava_lang_InstantiationException" value="0x00019260" inputUnit="0"/>
+	<symbol id="227" name="_java_Ljava_lang_IllegalMonitorStateException" value="0x00018110" inputUnit="0"/>
+	<symbol id="228" name="_java_Ljava_lang_IllegalThreadStateException" value="0x00018b30" inputUnit="0"/>
+	<symbol id="229" name="_java_Ljava_lang_InterruptedException" value="0x00018b00" inputUnit="0"/>
+	<symbol id="230" name="_java_Ljava_lang_ArithmeticException" value="0x000180e0" inputUnit="0"/>
+	<symbol id="231" name="_java_Ljava_lang_NumberFormatException" value="0x000185e0" inputUnit="0"/>
+	<symbol id="232" name="_java_Ljava_lang_ClassCastException" value="0x000195c0" inputUnit="0"/>
+	<symbol id="233" name="_java_immutable_Keys" value="0x00028b60" inputUnit="0"/>
+	<symbol id="234" name="_java_immutable_Values" value="0x00028b6c" inputUnit="0"/>
+	<symbol id="235" name="_java_properties_Keys" value="0x0009400c" inputUnit="0"/>
+	<symbol id="236" name="_java_properties_Values" value="0x00094168" inputUnit="0"/>
+	<symbol id="237" name="_java_Object_OutOfMemory" value="0x00028b88" inputUnit="0"/>
+	<symbol id="238" name="_java_main_thread_name" value="0x0002d7a0" inputUnit="0"/>
+	<symbol id="239" name="_java_AB" value="0x00019850" inputUnit="0"/>
+	<symbol id="240" name="_java_AI" value="0x00019830" inputUnit="0"/>
+	<symbol id="241" name="_java_AC" value="0x0001a310" inputUnit="0"/>
+	<symbol id="242" name="_java_AAC" value="0x00018220" inputUnit="0"/>
+	<symbol id="243" name="_java_ALjava_lang_String" value="0x0001a2c0" inputUnit="0"/>
+	<symbol id="244" name="_java_ALjava_lang_Thread" value="0x00018200" inputUnit="0"/>
+	<symbol id="245" name="_java_ALjava_lang_Object" value="0x00019a40" inputUnit="0"/>
+	<symbol id="246" name="_java_Ljava_lang_Thread_method_runWrapper_V" value="0x00084234" inputUnit="0"/>
+	<symbol id="247" name="_java_Ljava_lang_Thread_method_callWrapper_V" value="0x000842f4" inputUnit="0"/>
+	<symbol id="248" name="_java_Ljava_lang_Thread_method_clinitWrapper_I_V" value="0x0008433c" inputUnit="0"/>
+	<symbol id="249" name="_java_Ljava_lang_Thread_method_run_V" value="0x00084380" inputUnit="0"/>
+	<symbol id="250" name="_java_Ljava_lang_Throwable_method_printStackTrace_V" value="0x000843b4" inputUnit="0"/>
+	<symbol id="251" name="_java_Ljava_lang_Thread_methodoffset_run_V" value="0x0000000c" inputUnit="0"/>
+	<symbol id="252" name="_java_Ljava_lang_Throwable_methodoffset_printStackTrace_V" value="0x0000000c" inputUnit="0"/>
+	<symbol id="253" name="_java_Lcom_is2t_vm_support_io_DebugOutputStream" value="0x00018050" inputUnit="0"/>
+	<symbol id="254" name="_java_Lcom_is2t_vm_support_io_MemoryInputStream" value="0x00018020" inputUnit="0"/>
+	<symbol id="255" name="_java_Ljava_lang_ClassNotFoundException" value="0x000192c0" inputUnit="0"/>
+	<symbol id="256" name="_java_Lcom_is2t_vm_support_InternalLimitsError" value="0x00019e90" inputUnit="0"/>
+	<symbol id="257" name="_java_Ljava_lang_UnsatisfiedLinkError" value="0x000180b0" inputUnit="0"/>
+	<symbol id="258" name="_java_Ljava_lang_StackOverflowError" value="0x00018080" inputUnit="0"/>
+	<symbol id="259" name="_java_Ljava_lang_ref_WeakReference" value="0x000198f0" inputUnit="0"/>
+	<symbol id="260" name="_java_Ljava_lang_ref_SoftReference" value="0x00000000" inputUnit="0"/>
+	<symbol id="261" name="_java_Lej_bon_EnqueuedWeakReference" value="0x00017ff0" inputUnit="0"/>
+	<symbol id="262" name="_java_Lej_sni_NativeIOException" value="0x00017fc0" inputUnit="0"/>
+	<symbol id="263" name="_java_Lej_sni_NativeIOException_fieldoffset_errorCode_I" value="0x0000000c" inputUnit="0"/>
+	<symbol id="264" name="_java_Lej_sni_NativeException" value="0x00017f90" inputUnit="0"/>
+	<symbol id="265" name="_java_Lej_sni_NativeException_fieldoffset_errorCode_I" value="0x0000000c" inputUnit="0"/>
+	<symbol id="266" name="_java_immutables_start" value="0x000007c0" inputUnit="2"/>
+	<symbol id="267" name="_java_immutables_end" value="0x0000093c" inputUnit="2"/>
+	<symbol id="268" name="_java_ClinitMethod" value="0x000843dc" inputUnit="0"/>
+	<symbol id="269" name="__icetea___6bss_6soar_6BT1$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="270" name="__icetea___6bss_6soar_6BT1$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="271" name="__icetea___6bss_6soar_6BT2$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="272" name="__icetea___6bss_6soar_6BT2$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="273" name="__icetea___6bss_6soar_6BT4$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="274" name="__icetea___6bss_6soar_6BT4$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="275" name="__icetea___6bss_6soar_6BT8$$Base" value="0x00000008" inputUnit="2"/>
+	<symbol id="276" name="__icetea___6bss_6soar_6BT8$$Limit" value="0x00000008" inputUnit="2"/>
+	<symbol id="277" name="__icetea___6bss_6soar_6REF$$Base" value="0x00000008" inputUnit="2"/>
+	<symbol id="278" name="__icetea___6bss_6soar_6REF$$Limit" value="0x00000008" inputUnit="2"/>
+	<symbol id="279" name="__icetea___6text_6soar$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="280" name=".text.soar$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="281" name=".bss.soar.BT1$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="282" name=".bss.soar.BT1$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="283" name=".bss.soar.BT2$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="284" name=".bss.soar.BT2$$Limit" value="0x00000000" inputUnit="2"/>
+	<symbol id="285" name=".bss.soar.BT4$$Base" value="0x00000000" inputUnit="2"/>
+	<symbol id="286" name=".bss.soar.BT4$$Limit" value="0x00000004" inputUnit="2"/>
+	<symbol id="287" name=".bss.soar.BT8$$Base" value="0x00000008" inputUnit="2"/>
+	<symbol id="288" name=".bss.soar.BT8$$Limit" value="0x00000008" inputUnit="2"/>
+	<symbol id="289" name=".bss.soar.REF$$Base" value="0x00000008" inputUnit="2"/>
+	<symbol id="290" name=".bss.soar.REF$$Limit" value="0x0000002c" inputUnit="2"/>
+	<symbol id="291" name="SOAR_START" value="0x00000000" inputUnit="2"/>
+	<symbol id="292" name="SOAR_END" value="0x00001290" inputUnit="2"/>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".bss.soar" relocName=".bss.soar" size="44">
+		<block name=".bss.soar.BT1.TestingFromScrath" id="132" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT1" id="133" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT2.TestingFromScrath" id="134" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT2" id="135" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT4" id="136" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT4.TestingFromScrath" id="25" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="4"></block>
+		<padding size="0x00000004"/>
+		<block name=".bss.soar.BT8.TestingFromScrath" id="137" inputUnit="1" startAddress="0x00000008" relocStartAddress="0x00000008" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.BT8" id="138" inputUnit="1" startAddress="0x00000008" relocStartAddress="0x00000008" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.REF" id="139" inputUnit="1" startAddress="0x00000008" relocStartAddress="0x00000008" imageSize="0" memSize="0"></block>
+		<block name=".bss.soar.REF.TestingFromScrath" id="74" inputUnit="1" startAddress="0x00000008" relocStartAddress="0x00000008" imageSize="0" memSize="36"></block>
+	</blockGroup>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".rodata.resources" relocName=".rodata.resources" size="124">
+		<block name=".soar.rodata.resource" id="41" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="32" memSize="32"></block>
+		<block name=".soar.rodata.resource" id="42" inputUnit="1" startAddress="0x00000020" relocStartAddress="0x00000020" imageSize="32" memSize="32"></block>
+		<block name=".soar.rodata.resource" id="44" inputUnit="1" startAddress="0x00000040" relocStartAddress="0x00000040" imageSize="60" memSize="60"></block>
+	</blockGroup>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".text.soar" relocName=".text.soar" size="4752">
+		<block name=".text.soar.startpadding" id="140" inputUnit="2" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="4" memSize="4"></block>
+		<padding size="0x0000000c"/>
+		<block name=".soar.runtime.types" id="24" inputUnit="1" startAddress="0x00000010" relocStartAddress="0x00000010" imageSize="548" memSize="548">
+			<symbolRef id="186" name=""/>
+			<symbolRef id="185" name="_java_Lej_wadapps_app_BackgroundService_nameinfo"/>
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="184" name=""/>
+			<symbolRef id="183" name="_java_Lej_wadapps_management_BackgroundServicesList_nameinfo"/>
+			<symbolRef id="182" name=""/>
+			<symbolRef id="181" name="_java_Lej_observable_Observer_nameinfo"/>
+			<symbolRef id="180" name="_java_Lej_util_logging_handler_DefaultHandler_htable"/>
+			<symbolRef id="179" name="_java_Ljava_util_logging_Handler_nameinfo"/>
+			<symbolRef id="178" name="_java_Lej_junit_TestWrapper_nameinfo"/>
+			<symbolRef id="177" name="_java_Lej_junit_TestListener_nameinfo"/>
+			<symbolRef id="176" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_vtable"/>
+			<symbolRef id="175" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method__4init_5_V"/>
+			<symbolRef id="174" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_htable"/>
+			<symbolRef id="173" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_itable"/>
+			<symbolRef id="172" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_nameinfo"/>
+			<symbolRef id="171" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method__4init_5_V"/>
+			<symbolRef id="170" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_htable"/>
+			<symbolRef id="169" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_itable"/>
+			<symbolRef id="168" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_nameinfo"/>
+			<symbolRef id="167" name="_java_Lej_wadapps_app_BackgroundServiceProxy_vtable"/>
+			<symbolRef id="166" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method__4init_5_V"/>
+			<symbolRef id="165" name="_java_Lej_wadapps_app_BackgroundServiceProxy_htable"/>
+			<symbolRef id="164" name="_java_Lej_wadapps_app_BackgroundServiceProxy_itable"/>
+			<symbolRef id="163" name="_java_Lej_wadapps_app_BackgroundServiceProxy_nameinfo"/>
+			<symbolRef id="162" name="_java_Lsome_pack_name_NewClass_vtable"/>
+			<symbolRef id="161" name="_java_Lsome_pack_name_NewClass_method__4init_5_V"/>
+			<symbolRef id="160" name="_java_Lsome_pack_name_NewClass_htable"/>
+			<symbolRef id="159" name="_java_Lsome_pack_name_NewClass_itable"/>
+			<symbolRef id="158" name="_java_Lsome_pack_name_NewClass_nameinfo"/>
+			<symbolRef id="157" name="_java_Lsome_pack_name_RepeatedTaskTimer_vtable"/>
+			<symbolRef id="156" name="_java_Lsome_pack_name_RepeatedTaskTimer_htable"/>
+			<symbolRef id="155" name="_java_Lsome_pack_name_RepeatedTaskTimer_itable"/>
+			<symbolRef id="154" name="_java_Lsome_pack_name_RepeatedTaskTimer_nameinfo"/>
+			<symbolRef id="153" name="_java_Lej_observable_ObserverProxy_method__4init_5_V"/>
+			<symbolRef id="152" name="_java_Lej_observable_ObserverProxy_htable"/>
+			<symbolRef id="151" name="_java_Lej_observable_ObserverProxy_itable"/>
+			<symbolRef id="150" name="_java_Lej_observable_ObserverProxy_nameinfo"/>
+			<symbolRef id="149" name="_java_Lej_wadapps_app_BackgroundService"/>
+			<symbolRef id="148" name="_java_ALej_wadapps_app_BackgroundService_nameinfo"/>
+			<symbolRef id="147" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method__4init_5_V"/>
+			<symbolRef id="146" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_htable"/>
+			<symbolRef id="145" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_itable"/>
+			<symbolRef id="144" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_nameinfo"/>
+			<symbolRef id="143" name="_java_Lej_util_logging_handler_DefaultHandler_method__4init_5_V"/>
+			<symbolRef id="142" name="_java_Lej_util_logging_handler_DefaultHandler_nameinfo"/>
+			<symbolRef id="209" name="_java_Ljava_lang_Class"/>
+		</block>
+		<block name=".soar.runtime" id="17" inputUnit="1" startAddress="0x00000234" relocStartAddress="0x00000234" imageSize="44" memSize="44">
+			<symbolRef id="106" name="_java_Lej_observable_Observer"/>
+		</block>
+		<block name=".soar.runtime" id="18" inputUnit="1" startAddress="0x00000260" relocStartAddress="0x00000260" imageSize="44" memSize="44">
+			<symbolRef id="106" name="_java_Lej_observable_Observer"/>
+		</block>
+		<block name=".soar.runtime" id="19" inputUnit="1" startAddress="0x0000028c" relocStartAddress="0x0000028c" imageSize="44" memSize="44">
+			<symbolRef id="149" name="_java_Lej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="20" inputUnit="1" startAddress="0x000002b8" relocStartAddress="0x000002b8" imageSize="44" memSize="44">
+			<symbolRef id="149" name="_java_Lej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="21" inputUnit="1" startAddress="0x000002e4" relocStartAddress="0x000002e4" imageSize="40" memSize="40">
+			<symbolRef id="63" name="_java_ALej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="23" inputUnit="1" startAddress="0x0000030c" relocStartAddress="0x0000030c" imageSize="40" memSize="40"></block>
+		<block name=".soar.runtime" id="28" inputUnit="1" startAddress="0x00000334" relocStartAddress="0x00000334" imageSize="40" memSize="40"></block>
+		<block name=".soar.runtime" id="29" inputUnit="1" startAddress="0x0000035c" relocStartAddress="0x0000035c" imageSize="40" memSize="40"></block>
+		<block name=".soar.runtime" id="47" inputUnit="1" startAddress="0x00000384" relocStartAddress="0x00000384" imageSize="48" memSize="48">
+			<symbolRef id="28" name="_java_Lej_wadapps_management_BackgroundServicesList_method_getBackgroundServices_ALej_wadapps_app_BackgroundService_descriptor"/>
+			<symbolRef id="27" name="_java_Lej_wadapps_management_BackgroundServicesList_method_remove_Lej_wadapps_app_BackgroundService_V_descriptor"/>
+			<symbolRef id="26" name="_java_Lej_wadapps_management_BackgroundServicesList_method_add_Lej_wadapps_app_BackgroundService_V_descriptor"/>
+			<symbolRef id="25" name="_java_Lej_wadapps_management_BackgroundServicesList_method_deleteObserver_Lej_observable_Observer_V_descriptor"/>
+			<symbolRef id="24" name="_java_Lej_wadapps_management_BackgroundServicesList_method_addObserver_Lej_observable_Observer_V_descriptor"/>
+			<symbolRef id="23" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_getBackgroundServices_ALej_wadapps_app_BackgroundService"/>
+			<symbolRef id="22" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_remove_Lej_wadapps_app_BackgroundService_V"/>
+			<symbolRef id="21" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_add_Lej_wadapps_app_BackgroundService_V"/>
+			<symbolRef id="20" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_deleteObserver_Lej_observable_Observer_V"/>
+			<symbolRef id="19" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_addObserver_Lej_observable_Observer_V"/>
+			<symbolRef id="109" name="_java_Lej_wadapps_management_BackgroundServicesList"/>
+		</block>
+		<block name=".soar.runtime" id="48" inputUnit="1" startAddress="0x000003b4" relocStartAddress="0x000003b4" imageSize="16" memSize="16">
+			<symbolRef id="30" name="_java_Lej_observable_Observer_method_update_V_descriptor"/>
+			<symbolRef id="29" name="_java_Lej_observable_ObserverProxy_method_update_V"/>
+			<symbolRef id="106" name="_java_Lej_observable_Observer"/>
+		</block>
+		<block name=".soar.runtime" id="49" inputUnit="1" startAddress="0x000003c4" relocStartAddress="0x000003c4" imageSize="16" memSize="16">
+			<symbolRef id="71" name="_java_Lsome_pack_name_RepeatedTaskTimer_method_run_V"/>
+			<symbolRef id="31" name="_java_Ljava_lang_Runnable"/>
+		</block>
+		<block name=".soar.runtime" id="52" inputUnit="1" startAddress="0x000003d4" relocStartAddress="0x000003d4" imageSize="24" memSize="24">
+			<symbolRef id="39" name="_java_Lej_wadapps_app_BackgroundService_method_onStop_V_descriptor"/>
+			<symbolRef id="38" name="_java_Lej_wadapps_app_BackgroundService_method_onStart_V_descriptor"/>
+			<symbolRef id="76" name="_java_Lsome_pack_name_NewClass_method_onStop_V"/>
+			<symbolRef id="77" name="_java_Lsome_pack_name_NewClass_method_onStart_V"/>
+			<symbolRef id="149" name="_java_Lej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="55" inputUnit="1" startAddress="0x000003ec" relocStartAddress="0x000003ec" imageSize="24" memSize="24">
+			<symbolRef id="39" name="_java_Lej_wadapps_app_BackgroundService_method_onStop_V_descriptor"/>
+			<symbolRef id="38" name="_java_Lej_wadapps_app_BackgroundService_method_onStart_V_descriptor"/>
+			<symbolRef id="88" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStop_V"/>
+			<symbolRef id="89" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStart_V"/>
+			<symbolRef id="149" name="_java_Lej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="58" inputUnit="1" startAddress="0x00000404" relocStartAddress="0x00000404" imageSize="40" memSize="40">
+			<symbolRef id="98" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_stop_V"/>
+			<symbolRef id="99" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_start_V"/>
+			<symbolRef id="100" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_link_V"/>
+			<symbolRef id="101" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_initialize_V"/>
+			<symbolRef id="41" name="_java_Lej_components_registry_BundleActivator"/>
+		</block>
+		<block name=".soar.runtime" id="60" inputUnit="1" startAddress="0x0000042c" relocStartAddress="0x0000042c" imageSize="24" memSize="24">
+			<symbolRef id="45" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method_stop_V"/>
+			<symbolRef id="44" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method_start_V"/>
+			<symbolRef id="43" name="_java_Lej_kf_FeatureEntryPoint"/>
+		</block>
+		<block name=".soar.runtime" id="84" inputUnit="1" startAddress="0x00000444" relocStartAddress="0x00000444" imageSize="8" memSize="8">
+			<symbolRef id="62" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_imtable_java_Lej_wadapps_management_BackgroundServicesList"/>
+		</block>
+		<block name=".soar.runtime" id="85" inputUnit="1" startAddress="0x0000044c" relocStartAddress="0x0000044c" imageSize="12" memSize="12">
+			<symbolRef id="208" name="_java_Ljava_lang_Object"/>
+			<symbolRef id="80" name="_java_Ljava_lang_ref_Reference"/>
+			<symbolRef id="79" name="_java_Lej_kf_Proxy"/>
+		</block>
+		<block name=".soar.runtime" id="89" inputUnit="1" startAddress="0x00000458" relocStartAddress="0x00000458" imageSize="8" memSize="8">
+			<symbolRef id="64" name="_java_Lej_observable_ObserverProxy_imtable_java_Lej_observable_Observer"/>
+		</block>
+		<block name=".soar.runtime" id="90" inputUnit="1" startAddress="0x00000460" relocStartAddress="0x00000460" imageSize="12" memSize="12">
+			<symbolRef id="208" name="_java_Ljava_lang_Object"/>
+			<symbolRef id="80" name="_java_Ljava_lang_ref_Reference"/>
+			<symbolRef id="79" name="_java_Lej_kf_Proxy"/>
+		</block>
+		<block name=".soar.runtime" id="93" inputUnit="1" startAddress="0x0000046c" relocStartAddress="0x0000046c" imageSize="8" memSize="8">
+			<symbolRef id="65" name="_java_Lsome_pack_name_RepeatedTaskTimer_imtable_java_Ljava_lang_Runnable"/>
+		</block>
+		<block name=".soar.runtime" id="94" inputUnit="1" startAddress="0x00000474" relocStartAddress="0x00000474" imageSize="8" memSize="8">
+			<symbolRef id="208" name="_java_Ljava_lang_Object"/>
+			<symbolRef id="66" name="_java_Ljava_util_TimerTask"/>
+		</block>
+		<block name=".soar.runtime" id="95" inputUnit="1" startAddress="0x0000047c" relocStartAddress="0x0000047c" imageSize="40" memSize="40">
+			<symbolRef id="72" name="_java_Ljava_util_TimerTask_method_cancel_Z"/>
+			<symbolRef id="71" name="_java_Lsome_pack_name_RepeatedTaskTimer_method_run_V"/>
+			<symbolRef id="70" name="_java_Ljava_util_TimerTask_method_scheduledExecutionTime_J"/>
+			<symbolRef id="69" name="_java_Ljava_util_TimerTask_method_setScheduled_Ljava_util_Timer_J_J_Z_V"/>
+			<symbolRef id="68" name="_java_Ljava_util_TimerTask_method_setLaunched_V"/>
+			<symbolRef id="67" name="_java_Ljava_util_TimerTask_method_uncaughtException_Ljava_util_Timer_Ljava_lang_Throwable_V"/>
+			<symbolRef id="97" name="_java_Ljava_lang_Object_method_clone_Ljava_lang_Object"/>
+			<symbolRef id="96" name="_java_Ljava_lang_Object_method_equals_Ljava_lang_Object_Z"/>
+			<symbolRef id="95" name="_java_Ljava_lang_Object_method_hashCode_I"/>
+			<symbolRef id="94" name="_java_Ljava_lang_Object_method_toString_Ljava_lang_String"/>
+		</block>
+		<block name=".soar.runtime" id="97" inputUnit="1" startAddress="0x000004a4" relocStartAddress="0x000004a4" imageSize="8" memSize="8">
+			<symbolRef id="74" name="_java_Lsome_pack_name_NewClass_imtable_java_Lej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="98" inputUnit="1" startAddress="0x000004ac" relocStartAddress="0x000004ac" imageSize="4" memSize="4">
+			<symbolRef id="208" name="_java_Ljava_lang_Object"/>
+		</block>
+		<block name=".soar.runtime" id="100" inputUnit="1" startAddress="0x000004b0" relocStartAddress="0x000004b0" imageSize="24" memSize="24">
+			<symbolRef id="77" name="_java_Lsome_pack_name_NewClass_method_onStart_V"/>
+			<symbolRef id="76" name="_java_Lsome_pack_name_NewClass_method_onStop_V"/>
+			<symbolRef id="97" name="_java_Ljava_lang_Object_method_clone_Ljava_lang_Object"/>
+			<symbolRef id="96" name="_java_Ljava_lang_Object_method_equals_Ljava_lang_Object_Z"/>
+			<symbolRef id="95" name="_java_Ljava_lang_Object_method_hashCode_I"/>
+			<symbolRef id="94" name="_java_Ljava_lang_Object_method_toString_Ljava_lang_String"/>
+		</block>
+		<block name=".soar.runtime" id="102" inputUnit="1" startAddress="0x000004c8" relocStartAddress="0x000004c8" imageSize="8" memSize="8">
+			<symbolRef id="78" name="_java_Lej_wadapps_app_BackgroundServiceProxy_imtable_java_Lej_wadapps_app_BackgroundService"/>
+		</block>
+		<block name=".soar.runtime" id="103" inputUnit="1" startAddress="0x000004d0" relocStartAddress="0x000004d0" imageSize="12" memSize="12">
+			<symbolRef id="208" name="_java_Ljava_lang_Object"/>
+			<symbolRef id="80" name="_java_Ljava_lang_ref_Reference"/>
+			<symbolRef id="79" name="_java_Lej_kf_Proxy"/>
+		</block>
+		<block name=".soar.runtime" id="105" inputUnit="1" startAddress="0x000004dc" relocStartAddress="0x000004dc" imageSize="44" memSize="44">
+			<symbolRef id="89" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStart_V"/>
+			<symbolRef id="88" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStop_V"/>
+			<symbolRef id="87" name="_java_Lej_kf_Proxy_method_getReference_Ljava_lang_Object"/>
+			<symbolRef id="86" name="_java_Ljava_lang_ref_Reference_method_clear_V"/>
+			<symbolRef id="85" name="_java_Ljava_lang_ref_Reference_method_enqueue_Z"/>
+			<symbolRef id="84" name="_java_Ljava_lang_ref_Reference_method_get_Ljava_lang_Object"/>
+			<symbolRef id="83" name="_java_Ljava_lang_ref_Reference_method_isEnqueued_Z"/>
+			<symbolRef id="97" name="_java_Ljava_lang_Object_method_clone_Ljava_lang_Object"/>
+			<symbolRef id="82" name="_java_Lej_kf_Proxy_method_equals_Ljava_lang_Object_Z"/>
+			<symbolRef id="95" name="_java_Ljava_lang_Object_method_hashCode_I"/>
+			<symbolRef id="94" name="_java_Ljava_lang_Object_method_toString_Ljava_lang_String"/>
+		</block>
+		<block name=".soar.runtime" id="107" inputUnit="1" startAddress="0x00000508" relocStartAddress="0x00000508" imageSize="8" memSize="8">
+			<symbolRef id="90" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_imtable_java_Lej_components_registry_BundleActivator"/>
+		</block>
+		<block name=".soar.runtime" id="108" inputUnit="1" startAddress="0x00000510" relocStartAddress="0x00000510" imageSize="4" memSize="4">
+			<symbolRef id="208" name="_java_Ljava_lang_Object"/>
+		</block>
+		<block name=".soar.runtime" id="111" inputUnit="1" startAddress="0x00000514" relocStartAddress="0x00000514" imageSize="8" memSize="8">
+			<symbolRef id="92" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_imtable_java_Lej_kf_FeatureEntryPoint"/>
+		</block>
+		<block name=".soar.runtime" id="112" inputUnit="1" startAddress="0x0000051c" relocStartAddress="0x0000051c" imageSize="4" memSize="4">
+			<symbolRef id="208" name="_java_Ljava_lang_Object"/>
+		</block>
+		<block name=".soar.runtime" id="114" inputUnit="1" startAddress="0x00000520" relocStartAddress="0x00000520" imageSize="32" memSize="32">
+			<symbolRef id="101" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_initialize_V"/>
+			<symbolRef id="100" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_link_V"/>
+			<symbolRef id="99" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_start_V"/>
+			<symbolRef id="98" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_stop_V"/>
+			<symbolRef id="97" name="_java_Ljava_lang_Object_method_clone_Ljava_lang_Object"/>
+			<symbolRef id="96" name="_java_Ljava_lang_Object_method_equals_Ljava_lang_Object_Z"/>
+			<symbolRef id="95" name="_java_Ljava_lang_Object_method_hashCode_I"/>
+			<symbolRef id="94" name="_java_Ljava_lang_Object_method_toString_Ljava_lang_String"/>
+		</block>
+		<block name=".soar.runtime" id="118" inputUnit="1" startAddress="0x00000540" relocStartAddress="0x00000540" imageSize="8" memSize="8">
+			<symbolRef id="208" name="_java_Ljava_lang_Object"/>
+			<symbolRef id="104" name="_java_Ljava_util_logging_Handler"/>
+		</block>
+		<block name=".soar.runtime" id="120" inputUnit="1" startAddress="0x00000548" relocStartAddress="0x00000548" imageSize="28" memSize="28">
+			<symbolRef id="107" name="_java_Lej_observable_ObserverProxy"/>
+		</block>
+		<block name=".soar.runtime" id="122" inputUnit="1" startAddress="0x00000564" relocStartAddress="0x00000564" imageSize="28" memSize="28">
+			<symbolRef id="110" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.runtime" id="124" inputUnit="1" startAddress="0x00000580" relocStartAddress="0x00000580" imageSize="28" memSize="28">
+			<symbolRef id="113" name="_java_Lej_wadapps_app_BackgroundServiceProxy"/>
+		</block>
+		<block name=".soar.runtime.header" id="130" inputUnit="1" startAddress="0x0000059c" relocStartAddress="0x0000059c" imageSize="20" memSize="20">
+			<symbolRef id="141" name="_java_Pproperties_TestingFromScrath.services.bundles"/>
+			<symbolRef id="148" name="_java_ALej_wadapps_app_BackgroundService_nameinfo"/>
+			<symbolRef id="140" name="_java_Lej_util_logging_handler_DefaultHandler"/>
+			<symbolRef id="168" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_nameinfo"/>
+			<symbolRef id="175" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method__4init_5_V"/>
+			<symbolRef id="139" name="_java_Pproperties_TestingFromScrath.services.system.properties"/>
+			<symbolRef id="178" name="_java_Lej_junit_TestWrapper_nameinfo"/>
+			<symbolRef id="138" name="_java_Pproperties_TestingFromScrath.application.system.properties"/>
+			<symbolRef id="142" name="_java_Lej_util_logging_handler_DefaultHandler_nameinfo"/>
+			<symbolRef id="137" name="_java_Lej_junit_TestWrapper"/>
+			<symbolRef id="183" name="_java_Lej_wadapps_management_BackgroundServicesList_nameinfo"/>
+			<symbolRef id="136" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint"/>
+			<symbolRef id="172" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_nameinfo"/>
+			<symbolRef id="181" name="_java_Lej_observable_Observer_nameinfo"/>
+			<symbolRef id="135" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator"/>
+			<symbolRef id="177" name="_java_Lej_junit_TestListener_nameinfo"/>
+			<symbolRef id="143" name="_java_Lej_util_logging_handler_DefaultHandler_method__4init_5_V"/>
+			<symbolRef id="134" name="_java_Lej_junit_TestListener"/>
+			<symbolRef id="185" name="_java_Lej_wadapps_app_BackgroundService_nameinfo"/>
+			<symbolRef id="171" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method__4init_5_V"/>
+			<symbolRef id="133" name="_timeStamp_high"/>
+			<symbolRef id="132" name="_timeStamp_low"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="6" inputUnit="1" startAddress="0x000005b0" relocStartAddress="0x000005b0" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="48" name="_java_Pej"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="7" inputUnit="1" startAddress="0x000005bc" relocStartAddress="0x000005bc" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="9" inputUnit="1" startAddress="0x000005c8" relocStartAddress="0x000005c8" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="11" inputUnit="1" startAddress="0x000005d4" relocStartAddress="0x000005d4" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="7" name="_java_Pej_util"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="26" inputUnit="1" startAddress="0x000005e0" relocStartAddress="0x000005e0" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="8" name="_java_Psome"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="30" inputUnit="1" startAddress="0x000005ec" relocStartAddress="0x000005ec" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="33" inputUnit="1" startAddress="0x000005f8" relocStartAddress="0x000005f8" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="15" name="_java_Pjava"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="34" inputUnit="1" startAddress="0x00000604" relocStartAddress="0x00000604" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="35" inputUnit="1" startAddress="0x00000610" relocStartAddress="0x00000610" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="48" name="_java_Pej"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="43" inputUnit="1" startAddress="0x0000061c" relocStartAddress="0x0000061c" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="45" inputUnit="1" startAddress="0x00000628" relocStartAddress="0x00000628" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="18" name="_java_Pej_util_logging"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="51" inputUnit="1" startAddress="0x00000634" relocStartAddress="0x00000634" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="36" name="_java_Psome_pack"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="59" inputUnit="1" startAddress="0x00000640" relocStartAddress="0x00000640" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="42" name="_java_P_1_1TestingFromScrath_1_1"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="65" inputUnit="1" startAddress="0x0000064c" relocStartAddress="0x0000064c" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="48" name="_java_Pej"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="66" inputUnit="1" startAddress="0x00000658" relocStartAddress="0x00000658" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="47" name="_java_Pjava_util"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="67" inputUnit="1" startAddress="0x00000664" relocStartAddress="0x00000664" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="48" name="_java_Pej"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="68" inputUnit="1" startAddress="0x00000670" relocStartAddress="0x00000670" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="49" name="_java_Pej_wadapps"/>
+		</block>
+		<block name=".soar.rodata.packagenames" id="70" inputUnit="1" startAddress="0x0000067c" relocStartAddress="0x0000067c" imageSize="12" memSize="12">
+			<symbolRef id="111" name=""/>
+			<symbolRef id="49" name="_java_Pej_wadapps"/>
+		</block>
+		<block name=".soar.rodata.resourcenames" id="78" inputUnit="1" startAddress="0x00000688" relocStartAddress="0x00000688" imageSize="24" memSize="24">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="56" name="_java_rodata_resource_java_Pproperties_TestingFromScrath.application.system.properties"/>
+			<symbolRef id="58" name="_java_Pproperties"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.resourcenames" id="79" inputUnit="1" startAddress="0x000006a0" relocStartAddress="0x000006a0" imageSize="24" memSize="24">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="57" name="_java_rodata_resource_java_Pproperties_TestingFromScrath.services.system.properties"/>
+			<symbolRef id="58" name="_java_Pproperties"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.resourcenames" id="80" inputUnit="1" startAddress="0x000006b8" relocStartAddress="0x000006b8" imageSize="24" memSize="24">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="59" name="_java_rodata_resource_java_Pproperties_TestingFromScrath.services.bundles"/>
+			<symbolRef id="58" name="_java_Pproperties"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="81" inputUnit="1" startAddress="0x000006d0" relocStartAddress="0x000006d0" imageSize="16" memSize="16">
+			<symbolRef id="140" name="_java_Lej_util_logging_handler_DefaultHandler"/>
+			<symbolRef id="60" name="_java_Pej_util_logging_handler"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="83" inputUnit="1" startAddress="0x000006e0" relocStartAddress="0x000006e0" imageSize="16" memSize="16">
+			<symbolRef id="108" name="_java_Pej_wadapps_management"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="87" inputUnit="1" startAddress="0x000006f0" relocStartAddress="0x000006f0" imageSize="16" memSize="16">
+			<symbolRef id="63" name="_java_ALej_wadapps_app_BackgroundService"/>
+			<symbolRef id="185" name="_java_Lej_wadapps_app_BackgroundService_nameinfo"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="88" inputUnit="1" startAddress="0x00000700" relocStartAddress="0x00000700" imageSize="16" memSize="16">
+			<symbolRef id="105" name="_java_Pej_observable"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="92" inputUnit="1" startAddress="0x00000710" relocStartAddress="0x00000710" imageSize="16" memSize="16">
+			<symbolRef id="73" name="_java_Psome_pack_name"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="96" inputUnit="1" startAddress="0x00000720" relocStartAddress="0x00000720" imageSize="16" memSize="16">
+			<symbolRef id="73" name="_java_Psome_pack_name"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="101" inputUnit="1" startAddress="0x00000730" relocStartAddress="0x00000730" imageSize="16" memSize="16">
+			<symbolRef id="112" name="_java_Pej_wadapps_app"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="106" inputUnit="1" startAddress="0x00000740" relocStartAddress="0x00000740" imageSize="16" memSize="16">
+			<symbolRef id="135" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator"/>
+			<symbolRef id="91" name="_java_P_1_1TestingFromScrath_1_1_generated"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="110" inputUnit="1" startAddress="0x00000750" relocStartAddress="0x00000750" imageSize="16" memSize="16">
+			<symbolRef id="136" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint"/>
+			<symbolRef id="91" name="_java_P_1_1TestingFromScrath_1_1_generated"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="115" inputUnit="1" startAddress="0x00000760" relocStartAddress="0x00000760" imageSize="16" memSize="16">
+			<symbolRef id="134" name="_java_Lej_junit_TestListener"/>
+			<symbolRef id="102" name="_java_Pej_junit"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="116" inputUnit="1" startAddress="0x00000770" relocStartAddress="0x00000770" imageSize="16" memSize="16">
+			<symbolRef id="137" name="_java_Lej_junit_TestWrapper"/>
+			<symbolRef id="102" name="_java_Pej_junit"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="117" inputUnit="1" startAddress="0x00000780" relocStartAddress="0x00000780" imageSize="16" memSize="16">
+			<symbolRef id="103" name="_java_Pjava_util_logging"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="119" inputUnit="1" startAddress="0x00000790" relocStartAddress="0x00000790" imageSize="16" memSize="16">
+			<symbolRef id="106" name="_java_Lej_observable_Observer"/>
+			<symbolRef id="105" name="_java_Pej_observable"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="121" inputUnit="1" startAddress="0x000007a0" relocStartAddress="0x000007a0" imageSize="16" memSize="16">
+			<symbolRef id="109" name="_java_Lej_wadapps_management_BackgroundServicesList"/>
+			<symbolRef id="108" name="_java_Pej_wadapps_management"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.classnames" id="123" inputUnit="1" startAddress="0x000007b0" relocStartAddress="0x000007b0" imageSize="16" memSize="16">
+			<symbolRef id="149" name="_java_Lej_wadapps_app_BackgroundService"/>
+			<symbolRef id="112" name="_java_Pej_wadapps_app"/>
+			<symbolRef id="111" name=""/>
+		</block>
+		<block name=".soar.rodata.immutable" id="0" inputUnit="1" startAddress="0x000007c0" relocStartAddress="0x000007c0" imageSize="56" memSize="56">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="241" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="1" inputUnit="1" startAddress="0x000007f8" relocStartAddress="0x000007f8" imageSize="24" memSize="24">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="241" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="2" inputUnit="1" startAddress="0x00000810" relocStartAddress="0x00000810" imageSize="24" memSize="24">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="241" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="3" inputUnit="1" startAddress="0x00000828" relocStartAddress="0x00000828" imageSize="28" memSize="28">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="241" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="4" inputUnit="1" startAddress="0x00000844" relocStartAddress="0x00000844" imageSize="28" memSize="28">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="241" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="5" inputUnit="1" startAddress="0x00000860" relocStartAddress="0x00000860" imageSize="16" memSize="16">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="241" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="10" inputUnit="1" startAddress="0x00000870" relocStartAddress="0x00000870" imageSize="36" memSize="36">
+			<symbolRef id="6" name="_java_rodata_immutable__java_AC4"/>
+			<symbolRef id="5" name="_java_rodata_immutable__java_AC5"/>
+			<symbolRef id="4" name="_java_rodata_immutable__java_AC6"/>
+			<symbolRef id="3" name="_java_rodata_immutable__java_AC7"/>
+			<symbolRef id="2" name="_java_rodata_immutable__java_AC8"/>
+			<symbolRef id="1" name="_java_rodata_immutable__java_AC9"/>
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="242" name="_java_AAC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="36" inputUnit="1" startAddress="0x00000894" relocStartAddress="0x00000894" imageSize="48" memSize="48">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="241" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="37" inputUnit="1" startAddress="0x000008c4" relocStartAddress="0x000008c4" imageSize="24" memSize="24">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="241" name="_java_AC"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="38" inputUnit="1" startAddress="0x000008dc" relocStartAddress="0x000008dc" imageSize="12" memSize="12">
+			<symbolRef id="17" name="_java_rodata_immutable__java_AAC3"/>
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="16" name="_java_Lcom_is2t_kf_PrincipalData"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="39" inputUnit="1" startAddress="0x000008e8" relocStartAddress="0x000008e8" imageSize="36" memSize="36">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="239" name="_java_AB"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="71" inputUnit="1" startAddress="0x0000090c" relocStartAddress="0x0000090c" imageSize="24" memSize="24">
+			<symbolRef id="54" name="_java_rodata_immutable__java_AB1"/>
+			<symbolRef id="53" name="_java_rodata_immutable__java_Lcom_is2t_kf_PrincipalData2"/>
+			<symbolRef id="52" name="_java_rodata_immutable__java_AC10"/>
+			<symbolRef id="51" name="_java_rodata_immutable__java_AC11"/>
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="50" name="_java_Lcom_is2t_kf_ModuleData"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="76" inputUnit="1" startAddress="0x00000924" relocStartAddress="0x00000924" imageSize="12" memSize="12">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="243" name="_java_ALjava_lang_String"/>
+		</block>
+		<block name=".soar.rodata.immutable" id="77" inputUnit="1" startAddress="0x00000930" relocStartAddress="0x00000930" imageSize="12" memSize="12">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="245" name="_java_ALjava_lang_Object"/>
+		</block>
+		<block name=".soar.rodata" id="131" inputUnit="1" startAddress="0x0000093c" relocStartAddress="0x0000093c" imageSize="72" memSize="72">
+			<symbolRef id="188" name=""/>
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="210" name="_java_Ljava_lang_String"/>
+		</block>
+		<block name=".soar.text._java_Lsome_pack_name_RepeatedTaskTimer_method__4init_5_I_V" id="8" inputUnit="1" startAddress="0x00000984" relocStartAddress="0x00000984" imageSize="44" memSize="44">
+			<symbolRef id="0" name="_java_Ljava_util_TimerTask_method__4init_5_V"/>
+			<symbolRef id="32" name="_java_Lsome_pack_name_RepeatedTaskTimer"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_management_BackgroundServicesListProxy_method_addObserver_Lej_observable_Observer_V" id="12" inputUnit="1" startAddress="0x000009b0" relocStartAddress="0x000009b0" imageSize="72" memSize="72">
+			<symbolRef id="40" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="19" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_addObserver_Lej_observable_Observer_V"/>
+			<symbolRef id="250" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="110" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_management_BackgroundServicesListProxy_method_deleteObserver_Lej_observable_Observer_V" id="13" inputUnit="1" startAddress="0x000009f8" relocStartAddress="0x000009f8" imageSize="72" memSize="72">
+			<symbolRef id="40" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="20" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_deleteObserver_Lej_observable_Observer_V"/>
+			<symbolRef id="250" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="110" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_management_BackgroundServicesListProxy_method_add_Lej_wadapps_app_BackgroundService_V" id="14" inputUnit="1" startAddress="0x00000a40" relocStartAddress="0x00000a40" imageSize="72" memSize="72">
+			<symbolRef id="40" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="21" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_add_Lej_wadapps_app_BackgroundService_V"/>
+			<symbolRef id="250" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="110" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_management_BackgroundServicesListProxy_method_remove_Lej_wadapps_app_BackgroundService_V" id="15" inputUnit="1" startAddress="0x00000a88" relocStartAddress="0x00000a88" imageSize="72" memSize="72">
+			<symbolRef id="40" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="22" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_remove_Lej_wadapps_app_BackgroundService_V"/>
+			<symbolRef id="250" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="110" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_management_BackgroundServicesListProxy_method_getBackgroundServices_ALej_wadapps_app_BackgroundService" id="16" inputUnit="1" startAddress="0x00000ad0" relocStartAddress="0x00000ad0" imageSize="88" memSize="88">
+			<symbolRef id="40" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="23" name="_java_Lej_wadapps_management_BackgroundServicesListProxy_method_getBackgroundServices_ALej_wadapps_app_BackgroundService"/>
+			<symbolRef id="63" name="_java_ALej_wadapps_app_BackgroundService"/>
+			<symbolRef id="250" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="110" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_observable_ObserverProxy_method_update_V" id="22" inputUnit="1" startAddress="0x00000b28" relocStartAddress="0x00000b28" imageSize="64" memSize="64">
+			<symbolRef id="40" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="29" name="_java_Lej_observable_ObserverProxy_method_update_V"/>
+			<symbolRef id="107" name="_java_Lej_observable_ObserverProxy"/>
+		</block>
+		<block name=".soar.text._java_Lsome_pack_name_NewClass_method_main_V" id="27" inputUnit="1" startAddress="0x00000b68" relocStartAddress="0x00000b68" imageSize="112" memSize="112">
+			<symbolRef id="12" name="_java_Ljava_util_Timer_method_scheduleAtFixedRate_Ljava_util_TimerTask_J_J_V"/>
+			<symbolRef id="11" name="_java_Lsome_pack_name_RepeatedTaskTimer_method__4init_5_I_V"/>
+			<symbolRef id="32" name="_java_Lsome_pack_name_RepeatedTaskTimer"/>
+			<symbolRef id="10" name="_java_Ljava_util_Timer_method__4init_5_V"/>
+			<symbolRef id="9" name="_java_Ljava_util_Timer"/>
+			<symbolRef id="34" name="_java_Ljava_io_PrintStream_method_println_Ljava_lang_String_V"/>
+			<symbolRef id="196" name="_java_internStrings_start"/>
+			<symbolRef id="33" name="_java_Ljava_lang_System_field_out_Ljava_io_PrintStream"/>
+			<symbolRef id="75" name="_java_Lsome_pack_name_NewClass"/>
+		</block>
+		<block name=".soar.text._java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method_start_V" id="31" inputUnit="1" startAddress="0x00000bd8" relocStartAddress="0x00000bd8" imageSize="68" memSize="68">
+			<symbolRef id="13" name="_java_Lej_components_registry_util_BundleRegistryHelper_method_startup_Lej_components_registry_BundleActivator_V"/>
+			<symbolRef id="14" name="_java_Lej_components_registry_BundleRegistry"/>
+			<symbolRef id="46" name="_java_Lej_components_dependencyinjection_ServiceLoaderFactory_method_getServiceLoader_Lej_components_dependencyinjection_ServiceLoader"/>
+			<symbolRef id="136" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint"/>
+		</block>
+		<block name=".soar.text._java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method_stop_V" id="32" inputUnit="1" startAddress="0x00000c1c" relocStartAddress="0x00000c1c" imageSize="72" memSize="72">
+			<symbolRef id="14" name="_java_Lej_components_registry_BundleRegistry"/>
+			<symbolRef id="46" name="_java_Lej_components_dependencyinjection_ServiceLoaderFactory_method_getServiceLoader_Lej_components_dependencyinjection_ServiceLoader"/>
+			<symbolRef id="136" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint"/>
+		</block>
+		<block name=".soar.text._java_Lsome_pack_name_RepeatedTaskTimer_method__4clinit_5_V" id="40" inputUnit="1" startAddress="0x00000c64" relocStartAddress="0x00000c64" imageSize="36" memSize="36">
+			<symbolRef id="35" name="_java_Lsome_pack_name_RepeatedTaskTimer_field_completionCount_I"/>
+			<symbolRef id="32" name="_java_Lsome_pack_name_RepeatedTaskTimer"/>
+		</block>
+		<block name=".soar.text._java_Ljava_util_logging_Handler_method__4init_5_V" id="46" inputUnit="1" startAddress="0x00000c88" relocStartAddress="0x00000c88" imageSize="36" memSize="36">
+			<symbolRef id="93" name="_java_Ljava_lang_Object_method__4init_5_V"/>
+			<symbolRef id="104" name="_java_Ljava_util_logging_Handler"/>
+		</block>
+		<block name=".soar.text._java_Lsome_pack_name_RepeatedTaskTimer_method_run_V" id="50" inputUnit="1" startAddress="0x00000cac" relocStartAddress="0x00000cac" imageSize="84" memSize="84">
+			<symbolRef id="35" name="_java_Lsome_pack_name_RepeatedTaskTimer_field_completionCount_I"/>
+			<symbolRef id="34" name="_java_Ljava_io_PrintStream_method_println_Ljava_lang_String_V"/>
+			<symbolRef id="196" name="_java_internStrings_start"/>
+			<symbolRef id="33" name="_java_Ljava_lang_System_field_out_Ljava_io_PrintStream"/>
+			<symbolRef id="32" name="_java_Lsome_pack_name_RepeatedTaskTimer"/>
+		</block>
+		<block name=".soar.text._java_Lsome_pack_name_NewClass_method_onStop_V" id="53" inputUnit="1" startAddress="0x00000d00" relocStartAddress="0x00000d00" imageSize="24" memSize="24">
+			<symbolRef id="75" name="_java_Lsome_pack_name_NewClass"/>
+		</block>
+		<block name=".soar.text._java_Lsome_pack_name_NewClass_method_onStart_V" id="54" inputUnit="1" startAddress="0x00000d18" relocStartAddress="0x00000d18" imageSize="40" memSize="40">
+			<symbolRef id="37" name="_java_Lsome_pack_name_NewClass_method_main_V"/>
+			<symbolRef id="75" name="_java_Lsome_pack_name_NewClass"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_app_BackgroundServiceProxy_method_onStop_V" id="56" inputUnit="1" startAddress="0x00000d40" relocStartAddress="0x00000d40" imageSize="72" memSize="72">
+			<symbolRef id="40" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="88" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStop_V"/>
+			<symbolRef id="250" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="113" name="_java_Lej_wadapps_app_BackgroundServiceProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_app_BackgroundServiceProxy_method_onStart_V" id="57" inputUnit="1" startAddress="0x00000d88" relocStartAddress="0x00000d88" imageSize="72" memSize="72">
+			<symbolRef id="40" name="_java_Ljava_lang_Throwable"/>
+			<symbolRef id="89" name="_java_Lej_wadapps_app_BackgroundServiceProxy_method_onStart_V"/>
+			<symbolRef id="250" name="_java_Ljava_lang_Throwable_method_printStackTrace_V"/>
+			<symbolRef id="113" name="_java_Lej_wadapps_app_BackgroundServiceProxy"/>
+		</block>
+		<block name=".soar.text._java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_stop_V" id="61" inputUnit="1" startAddress="0x00000dd0" relocStartAddress="0x00000dd0" imageSize="72" memSize="72">
+			<symbolRef id="109" name="_java_Lej_wadapps_management_BackgroundServicesList"/>
+			<symbolRef id="46" name="_java_Lej_components_dependencyinjection_ServiceLoaderFactory_method_getServiceLoader_Lej_components_dependencyinjection_ServiceLoader"/>
+			<symbolRef id="135" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator"/>
+		</block>
+		<block name=".soar.text._java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_start_V" id="62" inputUnit="1" startAddress="0x00000e18" relocStartAddress="0x00000e18" imageSize="24" memSize="24">
+			<symbolRef id="135" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator"/>
+		</block>
+		<block name=".soar.text._java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_link_V" id="63" inputUnit="1" startAddress="0x00000e30" relocStartAddress="0x00000e30" imageSize="72" memSize="72">
+			<symbolRef id="109" name="_java_Lej_wadapps_management_BackgroundServicesList"/>
+			<symbolRef id="46" name="_java_Lej_components_dependencyinjection_ServiceLoaderFactory_method_getServiceLoader_Lej_components_dependencyinjection_ServiceLoader"/>
+			<symbolRef id="135" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator"/>
+		</block>
+		<block name=".soar.text._java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method_initialize_V" id="64" inputUnit="1" startAddress="0x00000e78" relocStartAddress="0x00000e78" imageSize="48" memSize="48">
+			<symbolRef id="161" name="_java_Lsome_pack_name_NewClass_method__4init_5_V"/>
+			<symbolRef id="75" name="_java_Lsome_pack_name_NewClass"/>
+			<symbolRef id="135" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator"/>
+		</block>
+		<block name=".soar.text._java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method_class$_V" id="72" inputUnit="1" startAddress="0x00000ea8" relocStartAddress="0x00000ea8" imageSize="32" memSize="32">
+			<symbolRef id="55" name="_java_Lsome_pack_name_RepeatedTaskTimer_method__4clinit_5_V"/>
+			<symbolRef id="136" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint"/>
+		</block>
+		<block name=".soar.text._java_Lej_util_logging_handler_DefaultHandler_method__4init_5_V" id="82" inputUnit="1" startAddress="0x00000ec8" relocStartAddress="0x00000ec8" imageSize="36" memSize="36">
+			<symbolRef id="61" name="_java_Ljava_util_logging_Handler_method__4init_5_V"/>
+			<symbolRef id="140" name="_java_Lej_util_logging_handler_DefaultHandler"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_management_BackgroundServicesListProxy_method__4init_5_V" id="86" inputUnit="1" startAddress="0x00000eec" relocStartAddress="0x00000eec" imageSize="36" memSize="36">
+			<symbolRef id="81" name="_java_Lej_kf_Proxy_method__4init_5_V"/>
+			<symbolRef id="110" name="_java_Lej_wadapps_management_BackgroundServicesListProxy"/>
+		</block>
+		<block name=".soar.text._java_Lej_observable_ObserverProxy_method__4init_5_V" id="91" inputUnit="1" startAddress="0x00000f10" relocStartAddress="0x00000f10" imageSize="36" memSize="36">
+			<symbolRef id="81" name="_java_Lej_kf_Proxy_method__4init_5_V"/>
+			<symbolRef id="107" name="_java_Lej_observable_ObserverProxy"/>
+		</block>
+		<block name=".soar.text._java_Lsome_pack_name_NewClass_method__4init_5_V" id="99" inputUnit="1" startAddress="0x00000f34" relocStartAddress="0x00000f34" imageSize="36" memSize="36">
+			<symbolRef id="93" name="_java_Ljava_lang_Object_method__4init_5_V"/>
+			<symbolRef id="75" name="_java_Lsome_pack_name_NewClass"/>
+		</block>
+		<block name=".soar.text._java_Lej_wadapps_app_BackgroundServiceProxy_method__4init_5_V" id="104" inputUnit="1" startAddress="0x00000f58" relocStartAddress="0x00000f58" imageSize="36" memSize="36">
+			<symbolRef id="81" name="_java_Lej_kf_Proxy_method__4init_5_V"/>
+			<symbolRef id="113" name="_java_Lej_wadapps_app_BackgroundServiceProxy"/>
+		</block>
+		<block name=".soar.text._java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator_method__4init_5_V" id="109" inputUnit="1" startAddress="0x00000f7c" relocStartAddress="0x00000f7c" imageSize="36" memSize="36">
+			<symbolRef id="93" name="_java_Ljava_lang_Object_method__4init_5_V"/>
+			<symbolRef id="135" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathActivator"/>
+		</block>
+		<block name=".soar.text._java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method__4init_5_V" id="113" inputUnit="1" startAddress="0x00000fa0" relocStartAddress="0x00000fa0" imageSize="36" memSize="36">
+			<symbolRef id="93" name="_java_Ljava_lang_Object_method__4init_5_V"/>
+			<symbolRef id="136" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint"/>
+		</block>
+		<block name=".soar.text" id="128" inputUnit="1" startAddress="0x00000fc4" relocStartAddress="0x00000fc4" imageSize="24" memSize="24"></block>
+		<block name=".soar.text" id="129" inputUnit="1" startAddress="0x00000fdc" relocStartAddress="0x00000fdc" imageSize="24" memSize="24"></block>
+		<block name=".soar.rodata" id="69" inputUnit="1" startAddress="0x00000ff4" relocStartAddress="0x00000ff4" imageSize="592" memSize="592"></block>
+		<block name=".soar.rodata.internSymbol" id="126" inputUnit="1" startAddress="0x00001244" relocStartAddress="0x00001244" imageSize="76" memSize="76">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="241" name="_java_AC"/>
+		</block>
+	</blockGroup>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".bss.soar.feature" relocName=".bss.soar.feature" size="16">
+		<block name=".bss.soar.feature" id="73" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="0" memSize="16"></block>
+	</blockGroup>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".rodata.soar.features" relocName=".rodata.soar.features" size="4">
+		<block name=".rodata.soar.features" id="75" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="4" memSize="4"></block>
+	</blockGroup>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".rodata.soar.feature" relocName=".rodata.soar.feature" size="72">
+		<block name=".rodata.soar.feature" id="125" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="72" memSize="72">
+			<symbolRef id="129" name=""/>
+			<symbolRef id="128" name=""/>
+			<symbolRef id="127" name="_java_statics_refls_kernel_start_TestingFromScrath"/>
+			<symbolRef id="126" name="__icetea___6bss_6soar_6REF_6TestingFromScrath$$Limit"/>
+			<symbolRef id="125" name="__icetea___6bss_6soar_6REF_6TestingFromScrath$$Base"/>
+			<symbolRef id="124" name="__icetea___6bss_6soar_6BT8_6TestingFromScrath$$Limit"/>
+			<symbolRef id="123" name="__icetea___6bss_6soar_6BT8_6TestingFromScrath$$Base"/>
+			<symbolRef id="122" name="__icetea___6bss_6soar_6BT4_6TestingFromScrath$$Limit"/>
+			<symbolRef id="121" name="__icetea___6bss_6soar_6BT4_6TestingFromScrath$$Base"/>
+			<symbolRef id="120" name="__icetea___6bss_6soar_6BT2_6TestingFromScrath$$Limit"/>
+			<symbolRef id="119" name="__icetea___6bss_6soar_6BT2_6TestingFromScrath$$Base"/>
+			<symbolRef id="118" name="__icetea___6bss_6soar_6BT1_6TestingFromScrath$$Limit"/>
+			<symbolRef id="117" name="__icetea___6bss_6soar_6BT1_6TestingFromScrath$$Base"/>
+			<symbolRef id="116" name="_java_bss_feature0"/>
+			<symbolRef id="115" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint_method_class$_V"/>
+			<symbolRef id="136" name="_java_L_1_1TestingFromScrath_1_1_generated_TestingFromScrathEntryPoint"/>
+			<symbolRef id="114" name="_java_rodata_immutable__java_Lcom_is2t_kf_ModuleData0"/>
+			<symbolRef id="189" name="_java_features_start"/>
+		</block>
+	</blockGroup>
+	<blockGroup startAddress="0x00000000" relocStartAddress="0x00000000" name=".rodata.soar.features" relocName=".rodata.soar.features" size="68">
+		<block name=".rodata.soar.features" id="127" inputUnit="1" startAddress="0x00000000" relocStartAddress="0x00000000" imageSize="68" memSize="68">
+			<symbolRef id="187" name="_java_rodata_feature0"/>
+			<symbolRef id="188" name=""/>
+			<symbolRef id="197" name="_java_internStrings_end"/>
+			<symbolRef id="196" name="_java_internStrings_start"/>
+			<symbolRef id="267" name="_java_immutables_end"/>
+			<symbolRef id="266" name="_java_immutables_start"/>
+			<symbolRef id="131" name=""/>
+			<symbolRef id="130" name=""/>
+			<symbolRef id="202" name="_java_resource_names_end"/>
+			<symbolRef id="201" name="_java_resource_names_start"/>
+			<symbolRef id="200" name="_java_class_names_end"/>
+			<symbolRef id="199" name="_java_class_names_start"/>
+			<symbolRef id="195" name="_java_header_types_end"/>
+			<symbolRef id="194" name="_java_header_types_start"/>
+			<symbolRef id="192" name="_java_soarsection_header_start"/>
+		</block>
+	</blockGroup>
+</lscmap>
